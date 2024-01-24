@@ -2,7 +2,7 @@ import React from 'react'
 import buynow from '../assets/buynow.svg'
 import aliens from '../assets/aliens.svg'
 import guntato from '../assets/guntato.svg'
-import smokertato from '../assets/smokertato.svg'
+// import smokertato from '../assets/smokertato.svg'
 import fattato from '../assets/fattato.svg'
 
 function Peep() {
