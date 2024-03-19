@@ -5,6 +5,12 @@ import guntato from '../assets/guntato.svg'
 // import smokertato from '../assets/smokertato.svg'
 import fattato from '../assets/fattato.svg'
 
+import tato02 from '../assets/tato-02.png'
+import tato03 from '../assets/tato-03.png'
+import tato04 from '../assets/tato-04.png'
+import tato05 from '../assets/tato-05.png'
+import tato06 from '../assets/tato-06.png'
+
 function Peep() {
     return (
         <div className='flex justify-center px-4'>
@@ -14,10 +20,10 @@ function Peep() {
                 <h2 className='text-black outlined-textd text-center text-6xl lg:text-7xl mb-3'>PEEP THE MEMES</h2>
 
                 <div className="images flex flex-col lg:flex-row" >
-                    <img src={aliens} alt="" className='m-1 w-96' />
-                    <img src={guntato} alt="" className='m-1' />
+                    <img src={tato05} alt="" className='m-1 w-20' />
+                    <img src={tato06} alt="" className='m-1 w-20' />
 
-                    <img src={fattato} alt="" className='m-1 w-72' />
+                    <img src={tato04} alt="" className='m-1 w-72' />
                 </div>
 
                 {/* <p className='text-xl lg:w-[738px] monts font-semibold mb-6 text-center'>Tato is a lorem ipsum Tato is a lorem ipsum Tato is a lorem ipsum Tato is a lorem ipsum Tato is a lorem ipsum Tato is a lorem ipsum Tato is a lorem ipsum Tato is a lorem ipsum Tato is a lorem ipsum Tato is a lorem ipsum </p> */}

@@ -8,6 +8,13 @@ import guntato from '../assets/guntato.svg'
 import tatostand from '../assets/tatostand.svg'
 import smokertato from '../assets/smokertato.svg'
 import fattato from '../assets/fattato.svg'
+
+import tato02 from '../assets/tato-02.png'
+import tato03 from '../assets/tato-03.png'
+import tato04 from '../assets/tato-04.png'
+import tato05 from '../assets/tato-05.png'
+import tato06 from '../assets/tato-06.png'
+
 function Hero() {
     return (
         <div className='relative flex flex-col mt-2 mb-10 justify-center items-center'>
@@ -16,10 +23,10 @@ function Hero() {
 
             <div className="relative hero flex justify-center items-center">
                 <img src={Herotext} alt="" className='w-[1100px] lg:mb-7 z-10 mt-60 lg:mt-10' />
-                <img src={aliens} alt="" className=' absolute lg:top-[-30px] top-[95px] z-20' />
-                <img src={tatostand} alt="" className='hidden lg:flex absolute top-[-90px] left-0 w-96' />
-                <img src={guntato} alt="" className='hidden lg:flex absolute top-[-20px] right-10 w-40' />
-                <img src={fattato} alt="" className='hidden lg:flex absolute bottom-[-40px] left-0 w-80 z-20' />
+
+                <img src={tato06} alt="" className='hidden lg:flex absolute top-[-90px] left-0 w-[230px]' />
+                <img src={tato04} alt="" className='hidden lg:flex absolute top-[-20px] right-10 w-40' />
+                <img src={tato02} alt="" className='hidden lg:flex absolute bottom-[-40px] left-0 w-80 z-20' />
                 {/* <img src={smokertato} alt="" className='absolute top-[-90px] right-20 w-60d' /> */}
             </div>
 

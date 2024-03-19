@@ -6,10 +6,16 @@ import star1 from '../assets/star1.svg'
 import star2 from '../assets/star2.svg'
 import straw1 from '../assets/straw1.svg'
 
+import tato02 from '../assets/tato-02.png'
+import tato03 from '../assets/tato-03.png'
+import tato04 from '../assets/tato-04.png'
+import tato05 from '../assets/tato-05.png'
+import tato06 from '../assets/tato-06.png'
+
 function Welcome() {
     return (
         <div className='relative flex flex-col justify-center  items-center mt-96 px-4'>
-            <img src={thinktato} alt="" className='absolute w-80 lg:w-96 top-[-223px] lg:top-[-323px] llg:mb-[50pxx]' />
+            <img src={tato03} alt="" className='absolute w-80 lg:w-96 top-[-223px] lg:top-[-323px] llg:mb-[50pxx]' />
             <div className="relative box bg-[#F5CB24] border-4 border-black lg:w-[818px] py-14 rounded-xl flex flex-col items-center mb-20">
 
                 <h2 className='text-white outlined-text text-7xl mb-3 text-center'>ALL YOU CAN EAT $TATO</h2>
